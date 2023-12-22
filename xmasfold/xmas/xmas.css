@@ -1,0 +1,477 @@
+body {
+    position: relative;
+    background-color:rgb(93, 133, 94); 
+    margin: 0;
+}
+
+
+
+.decor {
+    position: absolute;
+}
+.wood-floor {
+    width: 600px;
+    top: 200px;
+    left: 600px;
+    z-index: 1;
+}
+.wood-floor1{
+    width: 600px;
+    top: 200px;
+    left: 0px;
+    z-index: 1; 
+}
+.wood-floor2{
+    width: 600px;
+    top: 200px;
+    left: 900px;
+    z-index: 1; 
+}
+
+
+.cat1 {
+    width: 100px;
+    top: 615px;
+    left: 160px; 
+    z-index: 10;
+    transform: scaleX(-1);
+}
+
+.cat2 {
+    width: 80px;
+    top: 490px;
+    left: 490px;
+    z-index: 7;
+
+}
+
+.bed {
+    width: 300px; 
+    top: 425px;
+    left: 300px;
+    z-index: 5;
+}
+
+.stand {
+    width: 300px; 
+    top: 370px;
+    left: 550px;
+    z-index: 5;
+}
+
+.anklet {
+    width: 40px; 
+    top: 490px;
+    left: 630px;
+    z-index: 8;
+}
+
+.goldfish {
+    width: 40px; 
+    top: 450px;
+    left: 630px;
+    z-index: 9;
+}
+
+.poster {
+    width: 150px; 
+    top: 120px;
+    left: 1280px;
+    z-index: 5;
+}
+
+
+.wshelf {
+    width: 150px; 
+    top: 120px;
+    left: 1050px;
+    z-index: 4;
+}
+
+.flower {
+    width: 100px; 
+    top: 110px;
+    left: 1050px;
+    z-index: 6;
+}
+
+.dirty {
+    width: 50px; 
+    top: 135px;
+    left: 1075px;
+    z-index: 5;
+}
+
+.window {
+    width: 390px; 
+    top: 120px;
+    left: 550px;
+    z-index: 5;
+}
+
+.sky {
+    width: 290px; 
+    top: 220px;
+    left: 590px;
+    z-index: 4;
+}
+
+.blind1 {
+    width: 80px; 
+    height: 400px;
+    top: 140px;
+    left: 600px;
+    z-index: 8;
+}
+
+.blind2 {
+    width: 80px; 
+    height: 400px;
+    top: 140px;
+    left: 800px;
+    z-index: 8;
+}
+
+.rod {
+    width: 200px; 
+    height: 300px;
+    top: 30px;
+    left: 650px;
+    z-index: 6;
+    transform: rotate(90deg);
+}
+.rug {
+    width: 550px;
+    height: 150px;
+    top: 625px;
+    left: 200px;
+    z-index: 4;
+}
+.desk {
+    width: 400px;
+    top: 525px;
+    left: 1100px;
+    z-index: 5;
+    transform: scaleX(-1);
+}
+
+.baby {
+    width: 50px; 
+    top: 525px;
+    left: 1135px;
+    z-index: 5;
+    transform: scaleX(-1);
+}
+
+.pasta {
+    width: 100px; 
+    top: 510px;
+    left: 1115px;
+    z-index: 8;
+}
+
+.tv {
+    width: 300px;
+    top: 330px;
+    left: 900px;
+
+}
+
+.pole {
+    width: 100px;
+    height: 220px;
+    top: 470px;
+    left: 1000px;
+    z-index: 6;
+
+}
+
+
+.bibble {
+    width: 40px;
+    top: 515px;
+    left: 500px;
+    z-index: 6;
+
+}
+
+.boy {
+    width: 130px; 
+    height: 300px;
+    top: 350px;
+    left: 110px;
+    z-index: 3;
+}
+
+.shelf {
+    width: 330px; 
+    height: 200;
+    top: 140px;
+    left: 0px;
+    z-index: 4;
+}
+
+.misscarriage {
+    width: 90px; 
+    top: 280px;
+    left: 600px;
+    z-index: 7;
+}
+
+.baboon1 {
+    width: 100px; 
+    top: 460px;
+    left: 1250px;
+    z-index: 7;
+}
+
+.baboon2 {
+    width: 100px; 
+    top: 450px;
+    left: 1280px;
+    z-index: 6;
+}
+
+.baboon3 {
+    width: 80px; 
+    top: 460px;
+    left: 1320px;
+    z-index: 6;
+}
+
+.bin {
+    width: 100px; 
+    top: 610px;
+    left: 1180px;
+    z-index: 8;
+}
+
+.woodchuck {
+    width: 80px; 
+    top: 630px;
+    left: 1200px;
+    z-index: 7;
+}
+
+.monitor {
+    width: 180px; 
+    top: 410px;
+    left: 1250px;
+    z-index: 8;
+}
+
+.turtles {
+    width: 70px;
+    top: 660px;
+    left: 60px; 
+    z-index: 10;
+}
+
+.bowl {
+    width: 90px;
+    top: 645px;
+    left: 50px; 
+    z-index: 11;
+    transform: scaleX(-1);
+}
+
+.dababy {
+    width: 120px; 
+    top: 120px;
+    left: 1280px;
+    z-index: 4;
+}
+
+.icon {
+    cursor: pointer;
+    font-size: 24px;
+    background-color: rgb(46, 83, 52);
+    color: white;
+    font-family: 'Arial', serif, sans-serif;
+}
+
+#todoList {
+    position: absolute;
+    top: 100px; 
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    z-index: 11;
+    list-style-type: none;
+}
+
+#todoList li {
+    margin: 5px 0;
+}
+
+/* Bibble */
+#message {
+    position: absolute;
+    top: 20%; 
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    z-index: 10;
+}
+/* TV */
+
+#message1 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    z-index: 10;
+}
+
+ /* Baby */
+
+#message2 {
+    position: absolute;
+    top: 20%; 
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    z-index: 10;
+   
+}
+
+ /* Boy */
+
+#message3 {
+    position: absolute;
+    top: 20%; 
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    z-index: 10;
+}
+
+/* Misscarriage */
+
+#message4 {
+    position: absolute;
+    top: 20%; 
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    z-index: 10;
+}
+
+/* Anklet */
+
+#message5 {
+    position: absolute;
+    top: 20%; 
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    z-index: 10;
+}
+
+/* Baboons */
+
+#message6 {
+    position: absolute;
+    top: 20%; 
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    z-index: 10;
+}
+
+/* Woodchuck */
+
+#message7 {
+    position: absolute;
+    top: 20%; 
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    z-index: 10;
+}
+
+/* Turtles */
+
+#message8 {
+    position: absolute;
+    top: 20%; 
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    z-index: 10;
+}
+
+/* DaBaby */
+
+#message9 {
+    position: absolute;
+    top: 20%; 
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    z-index: 10;
+}
+
+#message10 {
+    position: absolute;
+    top: 20%; 
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    z-index: 10;
+}
+#musicControl {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    border: none; /* No border */
+    padding: 10px 20px; /* Padding around the text */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* No underline */
+    display: inline-block; /* Inline block level */
+    font-size: 16px; /* Font size */
+    margin: 4px 2px; /* Margin around the button */
+    cursor: pointer; /* Cursor as pointer */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+#musicControl:hover {
+    background-color: #45a049; /* Darker green when hovered */
+}

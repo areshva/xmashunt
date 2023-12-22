@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>XMAS HUNT</title>
+    <link rel="stylesheet" href="xmas.css"> <!-- Ensure the CSS file name matches -->
+</head>
+<body>
+    <audio id="clickSound" src="success.mp3" preload="auto"></audio>
+
+    <img src="images/cat.png" alt="Cat" class="decor cat1", id = 'cat1'>
+    <img src="images/cat2.png" alt="Cat 2" class="decor cat2" id="cat2">
+    <img src="images/bed.png" alt="Bed" class="decor bed">
+    <img src="images/wood.png" alt="Wood Floor" class="decor wood-floor">
+    <img src="images/wood.png" alt="Wood Floor" class="decor wood-floor1">
+    <img src="images/wood.png" alt="Wood Floor" class="decor wood-floor2">
+    <img src="images/rug.png" alt="Rug" class="decor rug">
+    <img src="images/desk.png" alt="Desk" class="decor desk">
+    <img src="images/pasta.png" alt="Pasta" class="decor pasta" id="pasta">
+    <img src="images/shelf.png" alt="Shelf" class="decor shelf" id="shelf">
+    <img src="images/window.png" alt="Window" class="decor window" id="window">
+    <img src="images/sky.png" alt="Sky" class="decor sky" id="sky">
+    <img src="images/blind.png" alt="Blind1" class="decor blind1" id="blind1">
+    <img src="images/blind.png" alt="Blind2" class="decor blind2" id="blind2">
+    <img src="images/stand.png" alt="Stand" class="decor stand" id="stand">
+    <img src="images/rod.png" alt="Rod" class="decor rod" id="rod">
+    <img src="images/goldfish.png" alt="Goldfish" class="decor goldfish" id="goldfish">
+    <img src="images/monitor.png" alt="Monitor" class="decor monitor" id="monitor">
+    <img src="images/bin.png" alt="Bin" class="decor bin" id="bin">
+    <img src="images/bowl.png" alt="Bowl" class="decor bowl" id="bowl">
+    <img src="images/poster.png" alt="Poster" class="decor poster" id="poster">
+    <img src="images/wshelf.png" alt="WShelf" class="decor wshelf" id="wshelf">
+    <img src="images/flower.png" alt="Flower" class="decor flower" id="flower">
+
+
+
+
+
+
+    <img src="hunt/bibble.png" alt="Bibble" class="decor bibble" id="bibble">
+    <div id="message" style="display: none;">Yay! Bibble found!</div>
+
+    <img src="hunt/tv.png" alt="Tv" class="decor tv" id="tv">
+
+    <img src="images/pole.png" alt="Pole" class="decor pole">
+
+    <div id="message1" style="display: none;">Yay! Amazon 55 inch fire TV found!</div>
+
+
+    <img src="hunt/baby.png" alt="Baby" class="decor baby" id="baby">
+    <div id="message2" style="display: none;">Yay! Little Chinese Baby found!</div>
+
+    <img src="hunt/boy.png" alt="Boy" class="decor boy" id="boy">
+    <div id="message3" style="display: none;">Yay! Big Indian Boy Found!</div>
+
+    <img src="hunt/misscarriage.png" alt="Misscarriage" class="decor misscarriage" id="misscarriage">
+    <div id="message4" style="display: none;">Yay! Lost So Many Babies, They Should Call Her Misscarriage Found!</div>
+
+    <img src="hunt/anklet.png" alt="Anklet" class="decor anklet" id="anklet">
+    <div id="message5" style="display: none;">Yay! Tracking Anklet Found!</div>
+
+    <img src="hunt/baboon1.png" alt="Baboon1" class="decor baboon1" id="baboon1">
+    <img src="hunt/baboon2.png" alt="Baboon2" class="decor baboon2" id="baboon2">
+    <img src="hunt/baboon3.png" alt="Baboon3" class="decor baboon3" id="baboon3">
+    <div id="message6" style="display: none;">Yay! A Bumbling Band of Baboons Found!</div>
+
+    <img src="hunt/woodchuck.png" alt="Woodchuck" class="decor woodchuck" id="woodchuck">
+    <div id="message7" style="display: none;">Yay! A Woodchuck That Could Chuck As Much Wood As A Woodchuck Could Chuck Found!</div>
+
+    <img src="hunt/turtles.png" alt="Turtles" class="decor turtles" id="turtles">
+    <div id="message8" style="display: none;">Yay! A Raphael, A Michaelangelo And The Other Two Teenage Mutant Ninja Turtles Found!</div>
+
+    <img src="hunt/dababy.png" alt="Dababy" class="decor dababy" id="dababy">
+    <div id="message9" style="display: none;">Yay! Dababy Found!</div>
+
+    <img src="hunt/dababy.png" alt="Dababy" class="decor dababy" id="dababy">
+    <div id="message9" style="display: none;">Yay! Dababy Found!</div>
+
+    <img src="hunt/dirty.png" alt="Dirty" class="decor dirty" id="dirty">
+    <div id="message10" style="display: none;">Yay! A Dirty Terrorist Found!</div>
+
+    <div id="todoIcon" class="icon">📋 To-Do List</div>
+    <ul id="todoList" style="display: none;">
+        <li id="taskAnklet"><input type="checkbox" id="ankletCheckbox"> A Tracking Anklet </li>
+        <li id="taskBaby"><input type="checkbox" id="babyCheckbox"> A Little Chinese Baby </li>
+        <li id="taskBoy"><input type="checkbox" id="boyCheckbox"> A Big Indian Boy </li>
+        <li id="taskTV"><input type="checkbox" id="tvCheckbox"> An Amazon 55 inch fire TV </li>
+        <li id="taskDababy"><input type="checkbox" id="dababyCheckbox"> DaBaby </li>
+        <li id="taskTurtles"><input type="checkbox" id="turtlesCheckbox"> A Raphael, A Michaelangelo And The Other Two Teenage Mutant Ninja Turtles </li>
+        <li id="taskBibble"><input type="checkbox" id="bibbleCheckbox"> A Bibble </li>
+        <li id="taskMisscarriage"><input type="checkbox" id="misscarriageCheckbox"> Lost So Many Babies, They Should Call Her Misscarriage</li>
+        <li id="taskBaboon"><input type="checkbox" id="baboonCheckbox">A Bumbling Band of Baboons </li>
+        <li id="taskWoodchuck"><input type="checkbox" id="woodchuckCheckbox">A Woodchuck That Could Chuck As Much Wood As A Woodchuck Could Chuck </li>
+        <li id="taskDirty"><input type="checkbox" id="dirtyCheckbox">A Dirty Terrorist</li>
+
+    
+    </ul>
+
+    <button id="musicControl">Play/Pause Music</button>
+    <audio id="backgroundMusic" src="bg.mp3" loop autoplay></audio>
+
+
+    <script>
+        var backgroundMusic = document.getElementById('backgroundMusic');
+        var musicControl = document.getElementById('musicControl');
+
+        musicControl.addEventListener('click', function() {
+            if (backgroundMusic.paused) {
+                backgroundMusic.play();
+                this.textContent = 'Pause Music';
+            } else {
+                backgroundMusic.pause();
+                this.textContent = 'Play Music';
+            }
+        });
+
+        document.getElementById("startButton").onclick = function() {
+            location.href = "xmas.html"; // Redirect to the xmas.html page
+        };
+    </script>
+
+    <script src="xmas.js"></script>
+</body>
+</html>
